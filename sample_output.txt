@@ -1,0 +1,58 @@
+COLD-DRINK FLAVOUR HASH TABLE
+PRN: 202501100130 | Seed S: 130
+Division Method + Linear Probing
+Table size m = 23
+
+Personalized values:
+30, 43, 56, 69, 82, 95, 8, 21, 34, 47, 60, 73, 86, 99, 12, 25, 38, 51, 64, 77
+
+INSERTION TRACE
+---------------
+Inserting 30 | hash index =  7 | placed at index =  7 | extra probes = 0
+Inserting 43 | hash index = 20 | placed at index = 20 | extra probes = 0
+Inserting 56 | hash index = 10 | placed at index = 10 | extra probes = 0
+Inserting 69 | hash index =  0 | placed at index =  0 | extra probes = 0
+Inserting 82 | hash index = 13 | placed at index = 13 | extra probes = 0
+Inserting 95 | hash index =  3 | placed at index =  3 | extra probes = 0
+Inserting  8 | hash index =  8 | placed at index =  8 | extra probes = 0
+Inserting 21 | hash index = 21 | placed at index = 21 | extra probes = 0
+Inserting 34 | hash index = 11 | placed at index = 11 | extra probes = 0
+Inserting 47 | hash index =  1 | placed at index =  1 | extra probes = 0
+Inserting 60 | hash index = 14 | placed at index = 14 | extra probes = 0
+Inserting 73 | hash index =  4 | placed at index =  4 | extra probes = 0
+Inserting 86 | hash index = 17 | placed at index = 17 | extra probes = 0
+Inserting 99 | hash index =  7 | collision at 7 | collision at 8 | placed at index =  9 | extra probes = 2
+Inserting 12 | hash index = 12 | placed at index = 12 | extra probes = 0
+Inserting 25 | hash index =  2 | placed at index =  2 | extra probes = 0
+Inserting 38 | hash index = 15 | placed at index = 15 | extra probes = 0
+Inserting 51 | hash index =  5 | placed at index =  5 | extra probes = 0
+Inserting 64 | hash index = 18 | placed at index = 18 | extra probes = 0
+Inserting 77 | hash index =  8 | collision at 8 | collision at 9 | collision at 10 | collision at 11 | collision at 12 | collision at 13 | collision at 14 | collision at 15 | placed at index = 16 | extra probes = 8
+
+FINAL HASH TABLE (Linear Probing)
+---------------------------------
+Index     Value
+---------------------------------
+0         69
+1         47
+2         25
+3         95
+4         73
+5         51
+6         Empty
+7         30
+8         8
+9         99
+10        56
+11        34
+12        12
+13        82
+14        60
+15        38
+16        77
+17        86
+18        64
+19        Empty
+20        43
+21        21
+22        Empty
